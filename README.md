@@ -1,6 +1,6 @@
 # UsabilityTestingProjectGroup33
 
-*Descriptiopn*: The main objective of our web application is to make the user convenient and easy to schedule an appointment with the doctor. Our webpage DoctorPatient will have options like Login Page, MyInfo, Book Appointment, View Appointment, Cancel Booking, Search Donor, Donate Organ, Search Donor and Logout. 
+*Description*: The main objective of our web application is to make the user convenient and easy to schedule an appointment with the doctor. Our webpage DoctorPatient will have options like Login Page, MyInfo, Book Appointment, View Appointment, Cancel Booking, Search Donor, Donate Organ, Search Donor and Logout. 
 
 .   The user needs to provide information which will be stored in the MyInfo which will also have the history treatment history of the patient.
 
