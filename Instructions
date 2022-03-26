@@ -1,0 +1,19 @@
+INSTRUCTIONS:
+
+1. First a login page will be displayed.
+
+2. Once the user is logged in myinfo page will displayed.
+
+3. For booking an appointment click on "Book Appointment" on the top. Page opens and fill the details and click "book" button.
+
+4. To view the appointments which are scheduled click on "View Appointments" on the top. Here a list of all appointments made till now will be displayed.
+
+5. If user chose to cancel the appointment made, he/she can click on "Cancel Booking" on the top. Text the appointment ID in the text box and click "cancel" which will cancel the appointment.
+
+6. If user wants to search for the doctors available then click on "Search doctor". In the page we can search the doctor by category like cardiologist or by doctor's name.
+
+7. If the patient chose to donate an organ, they can click on the "Donate organ". He/she needs to fill the form and click "donate".The information of the donor and doctor will be stored and it is checked weather it isaccepted or not accordingly.
+
+8. If a patient is searching for an organ/blood, then click on "Search Donor". Here the patient will see the list of donors.
+
+9. If the patient is done with the tasks they can logout. Click on "Logout" on the top then he will be logged out from their account.
