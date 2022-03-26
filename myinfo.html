@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Patient</title>
+	<link rel="stylesheet"  href="style2.css">
+	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<header>
+	<h1>Doctor<span>Patient</span></h1>
+		<nav>
+		
+
+
+		
+		<ul> 
+			
+		
+			<li><a href=" index.html">MyInfo</a></li>
+			<li><a href=" book.html">Book Appointment</a></li>
+			<li><a href=" view.html">View Appointment</a></li>
+			<li><a href="cancel.html">Cancel Booking</a></li>
+			<li><a href=" searchdoctor.html">Search Doctor</a></li>
+			<li><a href="donate.html">Donate Organ</a></li>
+			<li><a href="searchdonor.html">Search Donar</a></li>
+			<li><a href="../../applicationlayer/Doctorpatient.html">Logout</a></li>
+			
+
+
+
+	
+			
+
+		</ul>
+		
+
+
+
+	</nav>
+
+
+
+
+</header>
+<body>
+		<center><div class="headerP" style="width: 32%;margin-top: 60px;color: white;background: #39ca74;text-align: center;border-radius: 10px 10px 5px 5px;border-bottom: none; border :1px solid #39ca74;padding: 10px;margin-left:4px   ">
+	<h2>My Information</h2>
+</div></center><br>
+
+
+<form method="post" action="myinfo.php" class="infoP" style="margin-left:420px; margin-top:0px ;width: 40%;padding: 20px;border :3px solid #39ca74 ;background: white; border-radius: 10px 10px 10px 10px;align: center">
+
+
+
+
+
+
+<div class="contentP" style="font-weight: bold;">
+
+
+	<label>ID: <?php echo "" .$_SESSION['UserID'];?></label>
+
+	 	   <br>
+	 	   <br>
+	 	   <label> Email : <?php echo $col['Email']; ?></label>
+	 	   	 	   <br>
+	 	   <br>
+	 	   <label> Name : <?php echo $col['Name']; ?></label>
+	 	   	 	   <br>
+	 	   <br>
+	 	   <label> Address : <?php echo $col['Address']; ?></label>
+	 	   	 	   <br>
+	 	   <br>
+	 	   <label> Contact Number : <?php echo $col['ContactNumber']; ?></label>
+	 	   	 	   <br>
+	 	   <br>
+	 	   <label> Blood Type : <?php echo $col['Bloodtype']; ?></label>
+	 	   	 	   <br>
+	 	   <br>
+
+	 	   	<div class="input-group">
+		<button type="submit" name="treatmentHistory" class="btn" style="width: 40%;margin-left:200px;align:center">My-Treatment-History</button>
+	</div>
+	 	   
+
+
+
+	
+        
+           
+	
+</div>
+
+  
+</form>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+</body>
+</html>
